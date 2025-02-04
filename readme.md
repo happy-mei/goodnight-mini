@@ -5,4 +5,4 @@
 
 # 1.0.5
  - :sparkles:云开发->本地存储
- - :upgrade:更新taro版本
+ - :arrow_up:更新taro版本至4x
