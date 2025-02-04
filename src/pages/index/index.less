@@ -1,0 +1,32 @@
+page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.index {
+  flex: 1;
+  text-align: center;
+  font-size: 0;
+  line-height: 1;
+  &__time {
+    margin-bottom: 30rpx;
+    font-size: 86rpx;
+  }
+  &__date {
+    margin-bottom: 80rpx;
+    font-size: 28rpx;
+    &__day {
+      margin-left: 20rpx;
+    }
+  }
+  &__button {
+    width: 240rpx;
+    color: #fff;
+    background: #000;
+    border-radius: 0;
+    &:disabled {
+      background: #000;
+    }
+  }
+}

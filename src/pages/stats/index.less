@@ -1,0 +1,45 @@
+.picker {
+  padding: 10rpx 20rpx;
+  background: #f0f0f0;
+  &__button {
+    padding: 10rpx;
+    font-size: 30rpx;
+    color: #fff;
+    background-color: #000;
+  }
+  &__date {
+    padding: 0 20rpx;
+    font-size: 28rpx;
+    color: #555;
+  }
+}
+.list {
+  padding: 20rpx 0;
+  &__msg {
+    padding: 0 20rpx;
+    font-size: 28rpx;
+    color: #555;
+  }
+  &__item {
+    margin-bottom: 20rpx;
+    font-size: 28rpx;
+    &__date {
+      display: inline-block;
+      margin: 0 20rpx;
+      width: 180rpx;
+      color: #555;
+    }
+    &__day {
+      display: inline-block;
+      margin-right: 40rpx;
+      width: 40rpx;
+      text-align: center;
+      border: 1px solid #555;
+      &_weekend {
+        color: rgb(196, 56, 56);
+        border: 1px solid rgb(196, 56, 56);
+        // background: rgb(196, 56, 56);
+      }
+    }
+  }
+}
